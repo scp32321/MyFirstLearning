@@ -1,6 +1,20 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\80710\\.ohos\\config\\default_Learning_TXodxwCoMjYOKLnCZQLK5b6BK12hP2SfViqzDJvlUq0=.cer",
+          "storePassword": "0000001BD9D74147EABBEE876D60A6FF6E1845296F8772390D4A7FC9EF1047629540D785C93596856AF27C",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001BAA03F120C12342DC002527E0F925F283057D5E98D349756FDC247B541F771505B518D36D09886F",
+          "profile": "C:\\Users\\80710\\.ohos\\config\\default_Learning_TXodxwCoMjYOKLnCZQLK5b6BK12hP2SfViqzDJvlUq0=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\80710\\.ohos\\config\\default_Learning_TXodxwCoMjYOKLnCZQLK5b6BK12hP2SfViqzDJvlUq0=.p12"
+        }
+      }
+    ],
     "products": [
       {
         "name": "default",
