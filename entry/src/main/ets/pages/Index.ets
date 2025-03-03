@@ -1,15 +1,11 @@
 import router from '@ohos.router';
-import User from '../ClassList/MyClass'
 
 @Entry
 @Component
 struct Index {
   @State message: string = 'Hello World';
-  @State One:User = {
-    name:"小何",
 
 
-  }
 
   build() {
     RelativeContainer() {
